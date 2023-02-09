@@ -1,0 +1,174 @@
+<!DOCTYEP html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Question</title>
+        <link rel="stylesheet" href="all.min.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="MainPageCss.css">
+    </head>
+    <body>
+<!--------------------------------------------->
+        <nav class="navbar navbar-expand-lg bg-light navMain">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Question</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown butDown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sections
+                            </a>
+                            <ul class="dropdown-menu showMenu">
+                                <li><a class="dropdown-item" href="#">القرأن الكريم</a></li>
+                                <li><a class="dropdown-item" href="#">ألاحاديث الشريفه</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">السيره النبويه </a></li>
+                                <li><a class="dropdown-item" href="#">ألاسئله</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mainsearch" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+<!--------------------------------------------->
+        <div class="row">
+            <div class="menu2 col-12 col-sm-12 col-md-12 d-md-none ">
+                <ul class="smallUl col-12 col-md-12">
+                    <li onclick="showQuestion1()" class="col-2 col-md-2">أسئله على القــــرأن الكـــريــــــــم</li>
+                    <li onclick="showQuestion2()" class="col-2 col-md-2">أسئله على الاحاديث الشريفـــــــــه</li>
+                    <li onclick="showQuestion3()" class="col-2 col-md-2">أسئله على الـسيـــره النبويـــــــــــه</li>
+                    <li onclick="showQuestion4()" class="col-2 col-md-2">أسئله على أل بيـت النبى الكــرام</li>
+                    <li onclick="showQuestion5()" class="col-2 col-md-2">أسئله على الصـحـابه الكـــــــــــرام</li>
+                </ul>
+            </div>
+        <div class="main col-md-12 col-12 col-sm-12">
+            <div class="menu d-sm-none d-none d-md-block">
+                <ul>
+                    <li onclick="showQuestion1()">أسئله على القـــرأن الكـــريـــــــــم</li>
+                    <li onclick="showQuestion2()">أسئله على الاحاديث الشريفـــــه</li>
+                    <li onclick="showQuestion3()">أسئله على الـسيـــــــره النبويـــــه</li>
+                    <li onclick="showQuestion4()">أسئله على أل بيت النبى الكرام</li>
+                    <li onclick="showQuestion5()">أسئله على الـصحــابـــه الكـــــرام</li>
+                </ul>
+            </div>
+            <div class="question col-10 col-sm-10 col-md-6" id="question1">
+                <h1>أسئله على القـــرأن الكـــريـــــــــم</h1>
+                <div class="contentQ">
+                    <p>السؤال  1</p>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans1" id="A1" value="1">
+                        <label for="A1">الاجابة 1 الاجابة 1 الاجابة 1</label>
+                    </div>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans1" id="B1" value="2">
+                        <label for="B1">الاجابة 2 الاجابة 2 الاجابة 2</label>
+                    </div>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans1" id="C1" value="3">
+                        <label for="C1">الاجابة 3 الاجابة 3 الاجابة 3</label>
+                    </div>
+                </div>
+                <div class="contentQ">
+                    <p>السؤال  1</p>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans2" id="A2" value="1">
+                        <label for="A2">الاجابة 1</label>
+                    </div>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans2" id="B2" value="2">
+                        <label for="B2">الاجابة 2</label>
+                    </div>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans2" id="C2" value="3">
+                        <label for="C2">الاجابة 3</label>
+                    </div>
+                </div>
+                <div class="contentQ">
+                    <p>السؤال  1</p>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans3" id="A3" value="1">
+                        <label for="A3">الاجابة 1</label>
+                    </div>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans3" id="B3" value="2">
+                        <label for="B3">الاجابة 2</label>
+                    </div>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans3" id="C3" value="3">
+                        <label for="C3">الاجابة 3</label>
+                    </div>
+                </div>
+                <div class="contentQ">
+                    <p>السؤال  1</p>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans4" id="A4" value="1">
+                        <label for="A4">الاجابة 1</label>
+                    </div>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans4" id="B4" value="2">
+                        <label for="B4">الاجابة 2</label>
+                    </div>
+                    <div class="qu col-9 col-sm-6 col-md-8">
+                        <input type="radio" name="ans4" id="C4" value="3">
+                        <label for="C4">الاجابة 3</label>
+                    </div>
+                </div>
+                <div class="result col-12 col-sm-6 col-md-4" onclick="kk()">
+                    <p>النتيجه :</p>
+                    <span id="ss"></span>
+                </div>
+            </div>
+        </div>
+        </div>
+<!--------------------------------------------->
+        <footer class="bg-light text-center text-lg-start">
+            <div class="text-center p-3 foot" >
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                </ul>
+                <div class="copy">
+                    <p>© 2020 Copyright:</p>
+                    <a class="text-dark" href="#">Qu8estion.com</a>
+                </div>
+            </div>
+        </footer>
+<!--------------------------------------------->
+        <button class="upTo"><i class="fa-solid fa-up-long IconUpTo"></i></button>
+<!--------------------------------------------->
+        <script src="all.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="JQueryConnect.js"></script>
+        <script src="jQMain.js"></script>
+        <script src="JS%20Main%20Page.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
